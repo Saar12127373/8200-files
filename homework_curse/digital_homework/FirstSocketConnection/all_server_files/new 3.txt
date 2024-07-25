@@ -1,0 +1,43 @@
+   static void Main(string[] args)
+   {
+       double[] arr = new double[3];
+       for (int i = 0; i < arr.Length; i++)
+       {
+           Console.WriteLine("enter nums: ");
+           arr[i] = double.Parse(Console.ReadLine());
+       }
+
+       Console.WriteLine("old array is: ");
+
+       for (int i = 0; i < arr.Length; i++)
+       {
+           Console.Write(arr[i]);
+           Console.Write(",");
+       }
+       Console.WriteLine();
+
+       double[] arr2 = new_array(arr);
+       Console.WriteLine("new arr is: ");
+       for (int i = 0; i < arr2.Length; i++)
+       {
+           Console.Write(arr2[i]);
+           Console.Write(",");
+
+
+       }
+
+
+       Console.ReadLine();
+   }
+
+   public static double[] new_array(double[] old_array)
+   {
+       double[] new_array17 = new double[old_array.Length];
+       for (int i = 0; i < old_array.Length; i++)
+       {
+           new_array17[i] = (old_array[i]  * 0.82) * 1.17;
+
+       }
+       return new_array17;
+
+   }

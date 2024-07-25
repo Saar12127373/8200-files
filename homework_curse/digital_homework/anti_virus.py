@@ -1,7 +1,6 @@
 import requests
-from time import sleep
 from pathlib import Path
-
+import time
 
 api_key = "0457f35f91c5260b0ddb1d79a3065c08efe85d858c35d9158a2cb981998ded50"
 
@@ -15,9 +14,9 @@ def scan_file(api_key, file_path):
         files = {"file": data}
 
         response = requests.post(url, files= files, params = params)
-      #  print(response)
 
         return get_report(api_key, response.json()["resource"])
+
 
 def get_report(api_key, resourceId):
     url = 'https://www.virustotal.com/vtapi/v2/file/report'
@@ -35,13 +34,7 @@ def get_report(api_key, resourceId):
 
 
        
-        delay = 7
-          # Adjust delay time as needed
-        print(f'Retrying in {delay} seconds...')
-        sleep(delay) 
-           
-           
-
+          # Adjust delay time as needed\
 
 
 
@@ -50,6 +43,8 @@ def scan_directory(path):
 
     if path.is_file():
         response = scan_file(api_key, path)
+        time.sleep(61)
+
         
         positives = response["positives"]
         
