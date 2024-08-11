@@ -236,3 +236,6 @@ mouse_soc.close()
 screen_soc.close()
 
 soc.close()
+
+
+# thers an explanation about the program in a file named explanation.txt

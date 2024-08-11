@@ -9,10 +9,4 @@ using udp for faster output
 
 3. being able to control the victoms keyboard
 
-
-two things to work on-
-
-first:
-    thers a promblem with the width and hiegth
-second:
-    thers a promblem with finally and closing sockets
+4. everything needs to work together - using threads for each part (1,2,3)

