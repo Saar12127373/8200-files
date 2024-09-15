@@ -79,6 +79,15 @@ import time
 # def handle_Screenshots():
     
 
-list = '123'
+# list = '123'
 
-print(list[1:3])
+# print(list[1:3])
+
+
+import base64
+
+decoded = base64.b64decode("ODQxMjM0==")
+print(decoded)
+print(decoded.decode())
+
+
