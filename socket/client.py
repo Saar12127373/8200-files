@@ -29,9 +29,12 @@ def send_message(message):
 def recv_response():
     # Receive response
 
-    response_len = int.from_bytes(recv_all(4, client_socket), byteorder='big')
+    #response_len = int.from_bytes(recv_all(4, client_socket), byteorder='big')
     
-    response_data = recv_all(response_len, client_socket)
+    #response_data = recv_all(response_len, client_socket)
+    
+    response_data = recv_all(1024, client_socket)
+
     print(f"Received response: {response_data.decode()}")
 
 
