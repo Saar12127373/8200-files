@@ -13,7 +13,7 @@ def recv_all(length, client_sock):
 
 
 
-def send_message(message, server_address):
+def send_message(message):
 
     # Convert message to bytes and send length
     message_bytes = message.encode()
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect(server_address)
     
-    send_message(message, server_address)
+    send_message(message)
