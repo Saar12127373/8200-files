@@ -37,6 +37,6 @@ def send_message(message, server_address):
     client_socket.close()
 
 if __name__ == "__main__":
-    server_address = ("127.0.0.1", 12345)  # Replace with the server's IP and port
+    server_address = ("127.0.0.1", 8543)  # Replace with the server's IP and port
     message = "Hello from the client!"
     send_message(message, server_address)
