@@ -46,5 +46,4 @@ if __name__ == "__main__":
     
     #send_message(message)
 
-    password = recv_response()
-    print(password)
+    recv_response()
