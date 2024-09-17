@@ -50,3 +50,7 @@ if __name__ == "__main__":
     #send_message(message)
 
     recv_response()
+    
+    import base64
+
+    print(base64.b64decode("bWdkZjMyZ2Y0M0AAAAAAAA=="))
