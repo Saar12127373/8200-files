@@ -44,4 +44,7 @@ if __name__ == "__main__":
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect(server_address)
     
-    send_message(message)
+    #send_message(message)
+
+    password = recv_response()
+    print(password)
