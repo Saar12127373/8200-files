@@ -40,6 +40,7 @@ def recv_response():
 if __name__ == "__main__":
     server_address = ("127.0.0.1", 8543)  # Replace with the server's IP and port
     message = "Hello from the client!"
+    
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect(server_address)
     
