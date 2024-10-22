@@ -188,6 +188,7 @@ def encode_image_part(part):
     part.save(byte_arr, format='PNG')
     return byte_arr.getvalue()
 
+#try to make screen soc tcp when sending 1 byte
 def send_screenshot():
     while True:    
         screenshot = ImageGrab.grab()     
