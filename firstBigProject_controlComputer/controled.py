@@ -199,6 +199,7 @@ def send_screenshot():
 
             screenSoc.sendto(packet, (HOST, UDP_PORT))
 
+        # send with tcp because super important to get there!
         screenSoc.sendto(b"1", (HOST, UDP_PORT))
         cv2.waitKey(4)
 
