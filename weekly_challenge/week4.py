@@ -2,4 +2,4 @@
 
 def is_sum(s, list1):
     for i in range (list1):
-        if(s > list1[i])
+        if(s > list1)
