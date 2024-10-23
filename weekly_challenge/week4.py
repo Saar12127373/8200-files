@@ -2,7 +2,7 @@
 
 def is_sum(s, arr):
     i = 0
-    y = len(arr)
+    y = len(arr - 1)
 
     for i in range(len(arr)):
         if(arr[i] + arr[y] == s):
