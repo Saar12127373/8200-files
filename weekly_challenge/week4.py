@@ -6,9 +6,8 @@ def is_sum(s, arr):
     pointer1 = arr[i]
     pointer2 = arr[y]
     for i in range(len(arr)):
-        if()
-            if(pointer1 + pointer2 == s):
-                return True
-            else:
-                i += 1
-                pointer1 = arr[i]
+        if(pointer1 + pointer2 == s):
+            return True
+        if(pointer1 < pointer2):
+            i += 1
+            pointer1 = arr[i]
