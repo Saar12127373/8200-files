@@ -3,11 +3,11 @@
 def is_sum(s, arr):
     i = 0
     y = len(arr)
-    pointer1 = arr[i]
-    pointer2 = arr[y]
+
     for i in range(len(arr)):
-        if(pointer1 + pointer2 == s):
+        if(arr[i] + arr[y] == s):
             return True
-        if(pointer1 < pointer2):
+        if(arr[i] < arr[y]):
             i += 1
-            pointer1 = arr[i]
+        else:
+            y += 1
