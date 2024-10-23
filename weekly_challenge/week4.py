@@ -5,9 +5,10 @@ def is_sum(s, arr):
     y = len(arr - 1)
 
     while True:
-        if(arr[i] + arr[y] == s):
-            return True
-        if(arr[i] < arr[y]):
-            i += 1
+        
+        if(arr[i] < arr[y]):        
+            if(arr[i] + arr[y] == s):
+                return True
+        
         else:
             y -= 1
