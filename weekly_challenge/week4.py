@@ -9,6 +9,7 @@ def is_sum(s, arr):
         if(arr[i] < arr[y]):        
             if(arr[i] + arr[y] == s):
                 return True
-        
-        else:
-            y -= 1
+            elif(arr[i] + arr[y] < s):
+                i += 1
+            else:
+                y -= 1
