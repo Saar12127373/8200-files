@@ -10,4 +10,4 @@ def is_sum(s, arr):
         if(arr[i] < arr[y]):
             i += 1
         else:
-            y += 1
+            y -= 1
