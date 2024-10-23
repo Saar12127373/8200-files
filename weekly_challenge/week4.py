@@ -11,3 +11,4 @@ def is_sum(s, arr):
             i += 1
         else:
             y -= 1
+        return False
