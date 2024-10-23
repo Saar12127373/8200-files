@@ -2,7 +2,7 @@
 
 def is_sum(s, arr):
     i = 0
-    y = len(arr - 1)
+    y = len(arr) -1
 
     while(arr[i] < arr[y]): 
         if(arr[i] + arr[y] == s):
