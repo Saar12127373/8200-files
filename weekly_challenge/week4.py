@@ -3,4 +3,4 @@
 def is_sum(s, list1):
     sum_list = sum(list1)
     for i in range(list1):
-        if(sum - )
+        if(sum - list1[i] - list1[2])
