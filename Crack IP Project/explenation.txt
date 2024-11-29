@@ -1,7 +1,8 @@
 this will be my second project, includes a fue steps that will help me crack to local network wifi- WPA2 Private
 
 step 1:
-    deotitication: to be able to take somone out of the ip, the reason i do that is being able to listen to the radio waves,
+    deotitication: to be able to take somone out of the ip, the reason i do that is to not be depended of somone trying to connect to the ip,
+    instead being able to listen to the radio waves,
      in witch the computer sends the tempory encrypterd key
 
 step2: 
