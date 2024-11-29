@@ -6,6 +6,6 @@ step 1:
 step2: 
     listen to traffic (for the wpa2 handshake) using sniffer 
 step3:
-    to attack the handshake and open new keys using diffrent passwords, and geting the otehr parms by listening to the (mac and the two random nums)
+    to attack the handshake and open new keys using diffrent passwords, and geting the otehr parms by listening to the radio waves (mac and the two random nums)
     after you get the right key you will get the inner key, using it you can listen and communicate with devices on the network
 
