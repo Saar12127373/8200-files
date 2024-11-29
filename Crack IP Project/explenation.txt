@@ -1,18 +1,21 @@
-this will be my second project, includes a fue steps that will help me crack to local network wifi- WPA2 Private
+This will be my second project, includes a fue steps that will help me crack to local network wifi- WPA2 Private
 
 step 1:
-    deotitication: to be able to take somone out of the ip, the reason i do that is to not be depended of somone trying to connect to the ip,
+    Deotitication: to be able to take somone out of the ip, the reason i do that is to not be depended of somone trying to connect to the ip,
     instead being able to make the WPA2 handshake occur, then ill enter step2.
 
 step2: 
-    ill use the window that i created and listen to traffic (for the wpa2 handshake) using sniffer and geting the temporary encrypted key, after that i ender step3.
+    I'll use the window that i created and listen to traffic (for the wpa2 handshake) using sniffer and geting the temporary encrypted key, after that i ender step3.
 
 step3:
-    to attack the handshake and open new keys using diffrent passwords, and geting the other parms (mac addreses and the two random nums) -
+    To attack the handshake and open new keys using diffrent passwords, and geting the other parms (mac addreses and the two random nums) -
     by listening to the radio waves, after you get the right key you will get the inner key, using it you can listen and communicate with devices on the network
 
-keyPoints- the rauter can't know that im trying to guess the password, how i do it:
-instead of sending the rauter the temporary key that im creating i will check on my own if its the right key,
- ill do that by checking if can i understand the encrypted msg he sends, and only when i get the right key i send it to the rauter and im IN
+keyPoints- 
+    I must use monitor mode (on my network card) so i can listen to the packets even if there not especially meant to me (not for my mac addr).
+
+    The rauter can't know that im trying to guess the password, how i do it:
+    instead of sending the rauter the temporary key that im creating i will check on my own if its the right key,
+    ill do that by checking if can i understand the encrypted msg he sends, and only when i get the right key i send it to the rauter and im IN
 
 
