@@ -9,3 +9,4 @@ step3:
     to attack the handshake and open new keys using diffrent passwords, and geting the otehr parms (mac addreses and the two random nums) -
     by listening to the radio waves, after you get the right key you will get the inner key, using it you can listen and communicate with devices on the network
 
+keyPoints- the rauter can't know that im trying to guess the password - the reason is: that the 
