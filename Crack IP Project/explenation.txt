@@ -6,4 +6,4 @@ step 1:
 step2: 
     listen to traffic (for the wpa2 handshake) using sniffer 
 step3:
-    to attack the handshake and open new keys using diffrent passwords, using the other params 
+    to attack the handshake and open new keys using diffrent passwords, using the other params () 
