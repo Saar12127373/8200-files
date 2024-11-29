@@ -4,5 +4,6 @@ step 1:
     deotitication: to be able to take somone out of the ip, i do that do ill be able to 
 
 step2: 
-    to listen to the wpa2 handshake using sniffer 
+    listen to traffic (for the wpa2 handshake) using sniffer 
 step3:
+    to attack the handshake and open new keys using diffrent passwords, using the other params 
