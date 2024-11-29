@@ -2,7 +2,7 @@ this will be my second project, includes a fue steps that will help me crack to 
 
 step 1:
     deotitication: to be able to take somone out of the ip, the reason i do that is to not be depended of somone trying to connect to the ip,
-    instead being able to listen to the radio waves,
+    instead being able to make the WPA2 handshake listen to the radio waves,
      in witch the computer sends the tempory encrypterd key
 
 step2: 
