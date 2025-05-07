@@ -1,4 +1,11 @@
-binary_content = b""""""  # Paste the full binary content here
+import sqlite3
 
-with open("database.db", "wb") as file:
-    file.write(binary_content)
+conn = sqlite3.connect("database.db")
+cursor = conn.cursor()
+
+cursor.execute("SELECT * FROM users")
+rows = cursor.fetchall()
+for row in rows:
+    print(row)
+
+conn.close()
