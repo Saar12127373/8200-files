@@ -3,9 +3,9 @@ import sqlite3
 conn = sqlite3.connect("game_database.db")
 cursor = conn.cursor()
 
-cursor.execute("SELECT * FROM users")
-rows = cursor.fetchall()
-for row in rows:
-    print(row)
+cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+tables = cursor.fetchall()
+
+print("Tables in database:", tables)
 
 conn.close()
